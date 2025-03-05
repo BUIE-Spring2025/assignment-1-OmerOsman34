@@ -10,6 +10,13 @@ def int_to_roman(num):
 
     roman_str = ""
 
+    for value, symbol in roman_numerals:
+        while_num >= value:
+            roman_str += symbol
+            num -= value
+
+    return roman_str
+            
     :param num: Integer value between 1 and 3999 inclusive.
     :return: A string representing the Roman numeral of the integer.
     """
