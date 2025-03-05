@@ -8,6 +8,8 @@ def int_to_roman(num):
     (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")
     ]
 
+    roman_str = ""
+
     :param num: Integer value between 1 and 3999 inclusive.
     :return: A string representing the Roman numeral of the integer.
     """
