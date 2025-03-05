@@ -1,6 +1,4 @@
 def int_to_roman(num):
-    """
-    Convert an integer to a Roman numeral.
     
     roman_numerals = [
     (1000, "M"), (900, "CM"), (500, "D"), (400, "CD"),
@@ -16,6 +14,9 @@ def int_to_roman(num):
             num -= value
 
     return roman_str
+        
+    """
+    Convert an integer to a Roman numeral.
             
     :param num: Integer value between 1 and 3999 inclusive.
     :return: A string representing the Roman numeral of the integer.
