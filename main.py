@@ -9,7 +9,7 @@ def int_to_roman(num):
     roman_str = ""
 
     for value, symbol in roman_numerals:
-        while_num >= value:
+        while num >= value:
             roman_str += symbol
             num -= value
 
